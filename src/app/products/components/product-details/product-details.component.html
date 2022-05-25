@@ -1,0 +1,9 @@
+<p>product-details works!</p>
+<div *ngIf="productDetail$ | async as productDetails">
+  <div>
+    <span>Title: </span><span>{{productDetails.title}}</span>
+  </div>
+  <div>
+    <span>Price: </span><span>{{productDetails.price}}</span>
+  </div>
+</div>
